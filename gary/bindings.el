@@ -37,7 +37,7 @@
 
 ;; Insert skeleton pairs by default
 ;; TODO: refine per-mode
-(global-set-key (kbd "C-c d") 'delete-pair)
+(global-set-key (kbd "C-c k") 'delete-pair)
 (global-set-key (kbd "[") 'skeleton-pair-insert-maybe)
 (global-set-key (kbd "(") 'skeleton-pair-insert-maybe)
 (global-set-key (kbd "{") 'skeleton-pair-insert-maybe)
