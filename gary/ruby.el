@@ -5,6 +5,8 @@
      (define-key ruby-mode-map (kbd "C-h r") 'ri)
      (define-key ruby-mode-map (kbd "C-c C-e") 'ruby-insert-end)))
 
+(add-to-list 'auto-mode-alist '("builder$" . ruby-mode))
+
 ;;; ruby-mode 1.0 relic
 (defun ruby-insert-end ()
   (interactive)
