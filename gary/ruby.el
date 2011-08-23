@@ -6,6 +6,7 @@
      (define-key ruby-mode-map (kbd "C-c C-e") 'ruby-insert-end)))
 
 (add-to-list 'auto-mode-alist '("builder$" . ruby-mode))
+(add-to-list 'auto-mode-alist '("^Guardfile$" . ruby-mode))
 
 ;;; ruby-mode 1.0 relic
 (defun ruby-insert-end ()
