@@ -33,7 +33,8 @@
 
 ;; Modeline preferences
 (display-time-mode)
-(timeclock-modeline-display)
+(when (string< emacs-version "24")
+         (timeclock-modeline-display))
 (size-indication-mode 1)
 
 (set-default 'truncate-lines t)
