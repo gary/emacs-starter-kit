@@ -35,7 +35,7 @@
 (when (> emacs-major-version 21)
   (ido-everywhere t)
   (setq ido-confirm-unique-completion t
-        ido-default-buffer-method 'other-window
+        ido-default-buffer-method 'selected-window
         ido-use-filename-at-point t))
 
 ;; ack
