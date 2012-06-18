@@ -43,7 +43,7 @@
 
 ;; YASnippet
 (yas/initialize)
-(yas/load-directory (concat dotfiles-dir "snippets"))
+(yas/load-directory (concat esk-user-dir "/snippets"))
 
 ;; Yeah, the Hippies
 (add-to-list 'hippie-expand-try-functions-list 'yas/hippie-try-expand)

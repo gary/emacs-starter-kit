@@ -17,10 +17,10 @@
 
 (add-hook 'ruby-mode-hook 'idle-highlight)
 
-(load-library (concat dotfiles-dir
-                      "snippets/contrib/yasnippets-rspec/setup.el"))
-(load-library (concat dotfiles-dir
-                      "snippets/contrib/yasnippets-rails/setup.el"))
+(load-library (concat esk-user-dir
+                      "/snippets/contrib/yasnippets-rspec/setup.el"))
+(load-library (concat esk-user-dir
+                      "/snippets/contrib/yasnippets-rails/setup.el"))
 
 (provide 'ruby)
 ;; gary/ruby.el ends here

@@ -1,1 +1,1 @@
-(dolist (r `((?d (file . ,(concat dotfiles-dir "starter-kit-defuns.el"))))))
+(dolist (r `((?d (file . ,(concat esk-user-dir "/starter-kit-defuns.el"))))))
