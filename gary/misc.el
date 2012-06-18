@@ -41,10 +41,6 @@
 ;; ack
 (setq ack-prompt-for-directory t)
 
-;; smex
-(setq smex-prompt-string "smex "
-      smex-save-file (concat dotfiles-dir "smex.save"))
-
 ;; YASnippet
 (yas/initialize)
 (yas/load-directory (concat dotfiles-dir "snippets"))
