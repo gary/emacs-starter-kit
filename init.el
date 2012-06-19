@@ -12,6 +12,7 @@
 (defvar my-packages
   '(starter-kit
     starter-kit-bindings starter-kit-eshell starter-kit-js starter-kit-lisp starter-kit-ruby
+    browse-kill-ring
     yasnippet)
   "A list of packages to ensure are installed at launch.")
 

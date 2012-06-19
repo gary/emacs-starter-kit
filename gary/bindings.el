@@ -32,8 +32,7 @@
 (global-set-key (kbd "C-M-z") 'zap-to-char)
 
 ;; Visualize the kill ring
-(global-set-key (kbd "M-y") 'yank-pop-forward)
-(global-set-key (kbd "C-M-y") 'yank-pop-backward)
+(global-set-key (kbd "M-y") 'browse-kill-ring)
 
 ;; Insert skeleton pairs by default
 ;; TODO: refine per-mode
