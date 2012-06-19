@@ -15,7 +15,7 @@
   (ruby-indent-line t)
   (end-of-line))
 
-(add-hook 'ruby-mode-hook 'idle-highlight)
+(add-hook 'ruby-mode-hook 'flymake-ruby-load)
 
 (provide 'ruby)
 ;; gary/ruby.el ends here
