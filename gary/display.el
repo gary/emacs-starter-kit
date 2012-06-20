@@ -1,6 +1,13 @@
-;;; gary/display.el --- Perfecting Emacs's (lack of) veneer
+;;; gary/display.el --- Perfecting Emacs's veneer
 
-;; Spartan appearance
+(if (eq emacs-major-version 24)
+    (load-theme 'tango-dark t)
+  '(progn
+     ;; FIXME:
+     ;; (load-file (concat esk-user-dir "/color-themes/subdued.el"))
+     ;; (color-theme-subdued)
+     ))
+
 (when window-system
   (if (eq window-system 'ns)
       ;; Use the Inconsolata font if running OS X

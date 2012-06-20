@@ -13,7 +13,7 @@
   '(starter-kit
     starter-kit-bindings starter-kit-eshell starter-kit-js starter-kit-lisp starter-kit-ruby
     browse-kill-ring
-    coffee-mode
+    coffee-mode color-theme
     flymake-haml flymake-ruby flymake-sass
     full-ack
     gist
