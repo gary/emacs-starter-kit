@@ -17,7 +17,8 @@
     flymake-haml flymake-ruby flymake-sass
     full-ack
     gist
-    haml-mode
+    haml-mode handlebars-mode httpcode
+    imgur
     rvm
     sass-mode scala-mode scss-mode
     yaml-mode yasnippet)
