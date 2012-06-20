@@ -13,10 +13,14 @@
   '(starter-kit
     starter-kit-bindings starter-kit-eshell starter-kit-js starter-kit-lisp starter-kit-ruby
     browse-kill-ring
+    coffee-mode
     flymake-haml flymake-ruby flymake-sass
+    full-ack
+    gist
     haml-mode
-    sass-mode scss-mode
-    yasnippet)
+    rvm
+    sass-mode scala-mode scss-mode
+    yaml-mode yasnippet)
   "A list of packages to ensure are installed at launch.")
 
 (dolist (p my-packages)
