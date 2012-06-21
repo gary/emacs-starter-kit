@@ -92,9 +92,7 @@
 (global-set-key (kbd "C-x C-o") 'delete-blank-lines)
 (global-set-key (kbd "<C-return>") 'set-mark-command)
 (global-set-key (kbd "C-x C-k") 'kill-region)
-(global-set-key (kbd "C-w") 'backward-kill-word)
 (global-set-key (kbd "M-/") 'redo)
-(global-set-key (kbd "C-x ^") 'join-line)
 
 ;; Override OS X's behavior when in Emacs
 (if (eq system-type 'darwin)
@@ -126,9 +124,6 @@
 (global-set-key (kbd "C-0") '(lambda ()
                                (interactive)
                                (modify-frame-parameters nil `((alpha . 100)))))
-
-;; Revert the current buffer
-(global-set-key (kbd "<f6>") 'refresh-buffer) ; TODO dup of 'revert-buffer?
 
 ;; Prefer ack over grep
 (global-set-key (kbd "C-c C-k C-a") 'ack)

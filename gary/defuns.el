@@ -30,11 +30,6 @@ for when attached via a CLI client"
         ;; dark in a tty, tolerable in the gui
         (color-theme-zenburn))))
 
-(defun refresh-buffer ()
-  "Refresh the current buffer from disk"
-  (interactive)
-  (revert-buffer t t))
-
 (defun rename-file-and-buffer (new-name)
   "Renames both current buffer and file it's visiting to NEW-NAME."
   (interactive "sNew name: ")
