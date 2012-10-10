@@ -41,11 +41,8 @@
 ;; ack
 (setq ack-prompt-for-directory t)
 
-;; YASnippet
-(yas/initialize)
-(yas/load-directory (concat esk-user-dir "/snippets"))
-
-;; Yeah, the Hippies
+(eval-after-load 'yasnippet
+  (yas-global-mode 1))
 (add-to-list 'hippie-expand-try-functions-list 'yas/hippie-try-expand)
 
 ;; More precise temporary file management

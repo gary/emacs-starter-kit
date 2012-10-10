@@ -7,5 +7,6 @@ gary/custom.el
 elpa/
 eshell/
 server/
+snippets/
 tmp/
 url/
