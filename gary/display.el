@@ -17,6 +17,7 @@
                    ns-pop-up-frames nil)
              (ns-respond-to-change-font))))
 
+(set-cursor-color "deeppink")
 (blink-cursor-mode 1)
 
 (set-frame-width (selected-frame) 161)
