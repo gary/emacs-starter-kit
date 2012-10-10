@@ -47,6 +47,10 @@
 ;; Show buffer boundaries on the left-hande side of the fringe
 (setq-default indicate-buffer-boundaries 'left)
 
+;; Make unkempt whitespace painfully annoying
+(global-whitespace-mode t)
+(setq show-trailing-whitespace t)
+
 (setq visible-bell nil
       display-time-24hr-format t
       whitespace-style '(trailing
@@ -64,9 +68,6 @@
 (size-indication-mode 1)
 
 (set-default 'truncate-lines t)
-
-;; Make unkept whitespace painfully annoying
-(global-whitespace-mode t)
 
 ;; Highlight other instances of the symbol at point
 (global-hi-lock-mode t)
