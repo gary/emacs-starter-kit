@@ -17,10 +17,28 @@
                    ns-pop-up-frames nil)
              (ns-respond-to-change-font))))
 
-(set-cursor-color "deeppink")
 (blink-cursor-mode 1)
 
-(set-frame-width (selected-frame) 161)
+(defun init-ui (&optional frame)
+  "Sets the GUI's size and position on the display."
+  (interactive)
+  (if frame
+      (select-frame frame))
+  (if (window-system)
+      (cond
+       ((= 1600 (display-pixel-height)) ; 30" display
+        (set-frame-size (selected-frame) 163 100)
+        (set-frame-position (selected-frame) 1500 225))
+       (t                               ; laptop runs 1440x900
+        (set-frame-size (selected-frame) 163 53)
+        (set-frame-position (selected-frame) 0 0))))
+  (split-window-horizontally)
+
+  (set-cursor-color "deeppink")
+
+  (when window-system (opacity-modify t)))
+
+(add-hook 'emacs-startup-hook 'init-ui)
 
 (if (not (eq window-system nil))
     ;; Vertical fringes of 1 pixel for each window
