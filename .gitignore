@@ -4,5 +4,7 @@ starter-kit-2.*
 *.tar
 .smex-items
 elpa/
+eshell/
 server/
 tmp/
+url/
