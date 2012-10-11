@@ -67,6 +67,13 @@
 (add-to-list 'clean-buffer-list-kill-regexps "\\.rb$")
 (add-to-list 'clean-buffer-list-kill-regexps "\\.el$")
 
+;; Chrome integration
+(let ((edit-server (concat esk-user-dir "/../tmp/edit-server.el")))
+     (if (file-exists-p edit-server)
+         (progn
+           (load-file edit-server)
+           (edit-server-start))))
+
 (defun rename-file-and-buffer (new-name)
   "Renames both current buffer and file it's visiting to NEW-NAME."
   (interactive "sNew name: ")
