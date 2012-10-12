@@ -11,7 +11,7 @@
 ;; Add in your own as you wish:
 (defvar my-packages
   '(starter-kit
-    starter-kit-eshell starter-kit-js starter-kit-lisp starter-kit-ruby
+    starter-kit-eshell starter-kit-lisp starter-kit-ruby
     browse-kill-ring
     coffee-mode color-theme
     flymake-haml flymake-ruby flymake-sass
@@ -19,8 +19,9 @@
     gist
     haml-mode handlebars-mode httpcode
     imgur
+    js2-mode
     rvm
-    sass-mode scala-mode scss-mode
+    sass-mode scala-mode scss-mode slime slime-js
     yaml-mode yasnippet)
   "A list of packages to ensure are installed at launch.")
 
