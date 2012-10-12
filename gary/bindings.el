@@ -94,11 +94,6 @@
 (global-set-key (kbd "C-x C-k") 'kill-region)
 (global-set-key (kbd "M-/") 'redo)
 
-;; Override OS X's behavior when in Emacs
-(if (eq system-type 'darwin)
-    (setq mac-command-modifier 'meta
-          mac-option-modifier 'alt))
-
 ;; More precise character zapping
 (global-set-key (kbd "C-M-z") 'zap-to-char)
 

@@ -8,15 +8,6 @@
      ;; (color-theme-subdued)
      ))
 
-(when window-system
-  (if (eq window-system 'ns)
-      ;; Use the Inconsolata font if running OS X
-      (progn (setq ns-antialias-text t
-                   ns-input-font "Inconsolata"
-                   ns-input-fontsize 14
-                   ns-pop-up-frames nil)
-             (ns-respond-to-change-font))))
-
 (blink-cursor-mode 1)
 
 (defun init-ui (&optional frame)
@@ -29,9 +20,8 @@
        ((= 1600 (display-pixel-height)) ; 30" display
         (set-frame-size (selected-frame) 163 100)
         (set-frame-position (selected-frame) 1500 225))
-       (t                               ; laptop runs 1440x900
-        (set-frame-size (selected-frame) 163 53)
-        (set-frame-position (selected-frame) 0 0))))
+       (t
+        (default-frame-position))))
   (split-window-horizontally)
 
   (set-cursor-color "deeppink")
