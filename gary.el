@@ -2,8 +2,7 @@
 
 (setq custom-file (concat esk-user-dir "/custom.el"))
 
-;; FIXME: void variable ido-kill-emacs-hook wtf?
-(add-hook 'coding-hook 'turn-on-visual-line-mode)
+(add-hook 'prog-mode-hook 'turn-on-visual-line-mode)
 
 (provide 'gary)
 ;;; gary.el ends here
