@@ -17,5 +17,5 @@
 
 (add-hook 'ruby-mode-hook 'flymake-ruby-load)
 
-(provide 'ruby)
+(provide 'gary/ruby)
 ;; gary/ruby.el ends here

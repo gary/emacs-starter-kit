@@ -145,5 +145,5 @@ Goes backward if ARG is negative; error if CHAR not found."
                          (if (> arg 0) (1- (point)) (1+ (point))))
                         (point)))))
 
-(provide 'misc)
+(provide 'gary/misc)
 ;;; gary/misc.el ends here

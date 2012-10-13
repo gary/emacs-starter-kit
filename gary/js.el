@@ -5,5 +5,5 @@
           (lambda ()
             (slime-js-minor-mode 1)))
 
-(provide 'js)
+(provide 'gary/js)
 ;;; gary/js.el ends here

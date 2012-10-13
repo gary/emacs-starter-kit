@@ -72,5 +72,5 @@
     (when (and (>= newalpha frame-alpha-lower-limit) (<= newalpha 100))
       (modify-frame-parameters nil (list (cons 'alpha newalpha))))))
 
-(provide 'display)
+(provide 'gary/display)
 ;;; gary/display.el ends here

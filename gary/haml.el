@@ -2,5 +2,5 @@
 
 (add-hook 'haml-mode-hook 'flymake-haml-load)
 
-(provide 'haml)
+(provide 'gary/haml)
 ;;; gary/haml.el ends here

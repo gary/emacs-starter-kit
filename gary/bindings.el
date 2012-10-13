@@ -158,5 +158,5 @@
                       (browse-url-at-point (thing-at-point-url-at-point))
                     (view-url))))
 
-(provide 'bindings)
-;;; bindings.el ends here
+(provide 'gary/bindings)
+;;; gary/bindings.el ends here

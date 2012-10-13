@@ -2,5 +2,5 @@
 
 (add-hook 'sass-mode-hook 'flymake-sass-load)
 
-(provide 'sass)
+(provide 'gary/sass)
 ;;; gary/sass.el ends here

@@ -2,5 +2,5 @@
 
 (add-hook 'after-make-frame-functions 'init-ui)
 
-(provide 'daemon)
-;;; daemon.el ends here
+(provide 'gary/daemon)
+;;; gary/daemon.el ends here
