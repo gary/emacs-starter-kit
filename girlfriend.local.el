@@ -1,5 +1,8 @@
 ;;; girlfriend.local.el --- Platform specific tweaks for OS X
 
+(setenv "PATH" (concat (getenv "HOME") "/.rbenv/shims:"
+                       (getenv "HOME") "/.rbenv/bin:" (getenv "PATH")))
+
 (when window-system
   (progn (setq ns-antialias-text t
                    ns-input-font "Inconsolata"
