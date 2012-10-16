@@ -14,8 +14,7 @@
     starter-kit-eshell starter-kit-lisp starter-kit-ruby
     browse-kill-ring
     coffee-mode color-theme
-    flymake-haml flymake-ruby flymake-sass
-    full-ack
+    feature-mode flymake-haml flymake-ruby flymake-sass full-ack
     gist
     haml-mode handlebars-mode httpcode
     imgur inf-ruby
