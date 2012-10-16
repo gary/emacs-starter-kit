@@ -15,7 +15,7 @@
     browse-kill-ring
     coffee-mode color-theme
     feature-mode flymake-haml flymake-ruby flymake-sass full-ack
-    gist
+    gist git-commit-mode gitconfig-mode gitignore-mode
     haml-mode handlebars-mode httpcode
     imgur inf-ruby
     js2-mode
