@@ -21,7 +21,7 @@
     imgur
     js2-mode
     sass-mode scala-mode scss-mode slime slime-js
-    yaml-mode yasnippet)
+    yaml-mode yasnippet yari)
   "A list of packages to ensure are installed at launch.")
 
 (dolist (p my-packages)
