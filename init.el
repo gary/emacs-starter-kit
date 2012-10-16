@@ -20,6 +20,7 @@
     haml-mode handlebars-mode httpcode
     imgur
     js2-mode
+    markdown-mode
     ruby-end
     sass-mode scala-mode scss-mode slime slime-js
     yaml-mode yasnippet yari)
