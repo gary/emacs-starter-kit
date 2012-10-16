@@ -1,9 +1,5 @@
 ;;; gary/ruby.el --- My Ruby codes are perfect.  Kidding.
 
-(eval-after-load 'ruby-mode
-  '(progn
-     (define-key ruby-mode-map (kbd "C-c C-e") 'ruby-insert-end)))
-
 (defun ri-bind-key ()
   (local-set-key [f1] 'yari-anything))
 

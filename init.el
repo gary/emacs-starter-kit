@@ -20,6 +20,7 @@
     haml-mode handlebars-mode httpcode
     imgur
     js2-mode
+    ruby-end
     sass-mode scala-mode scss-mode slime slime-js
     yaml-mode yasnippet yari)
   "A list of packages to ensure are installed at launch.")
