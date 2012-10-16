@@ -18,7 +18,7 @@
     full-ack
     gist
     haml-mode handlebars-mode httpcode
-    imgur
+    imgur inf-ruby
     js2-mode
     markdown-mode
     ruby-end
