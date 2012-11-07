@@ -13,8 +13,8 @@
 (defun default-frame-position ()
   (progn
     ;; laptop runs 1440x900
-    (set-frame-size (selected-frame) 163 53)
-    (set-frame-position (selected-frame) 0 0)))
+    (set-frame-size (selected-frame) 165 65)
+    (set-frame-position (selected-frame) 400 0)))
 
 ;; command is alt in osx
 (if (eq system-type 'darwin)
