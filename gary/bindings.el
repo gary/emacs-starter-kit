@@ -45,8 +45,8 @@
 
 (global-set-key (kbd "C-c r") 'revert-buffer)
 
-;; Window toggling. (C-x o goes to the next window)
-(global-set-key (kbd "C-x O") (lambda () (interactive) (other-window -1))) ;; back one
+;; Unbind the default window switching to force use of windmove key chords
+(global-unset-key (kbd "C-x o"))
 
 (global-set-key (kbd "C-c t")
                 (lambda (arg)
