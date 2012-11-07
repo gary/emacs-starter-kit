@@ -19,6 +19,7 @@
     haml-mode handlebars-mode httpcode
     imgur inf-ruby
     js2-mode
+    key-chord
     markdown-mode
     ruby-end
     sass-mode scala-mode scss-mode slime slime-js
