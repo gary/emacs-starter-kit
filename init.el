@@ -12,9 +12,10 @@
 (defvar my-packages
   '(starter-kit
     starter-kit-eshell starter-kit-lisp starter-kit-ruby
+    ack-and-a-half
     browse-kill-ring
     coffee-mode color-theme
-    feature-mode flymake-haml flymake-ruby flymake-sass full-ack
+    feature-mode flymake-haml flymake-ruby flymake-sass
     gist git-commit-mode gitconfig-mode gitignore-mode
     haml-mode handlebars-mode httpcode
     imgur inf-ruby
@@ -23,6 +24,7 @@
     markdown-mode
     ruby-end
     sass-mode scala-mode scss-mode slime slime-js
+    wgrep-ack
     yaml-mode yasnippet yari)
   "A list of packages to ensure are installed at launch.")
 

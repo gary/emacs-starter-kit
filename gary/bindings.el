@@ -121,7 +121,8 @@
                                (modify-frame-parameters nil `((alpha . 100)))))
 
 ;; Prefer ack over grep
-(global-set-key (kbd "C-c C-k C-a") 'ack)
+;; TODO: upgrade to ack-and-a-half-same
+(global-set-key (kbd "C-c C-k C-a") 'ack-and-a-half)
 
 ;; Escape all recursive edits
 (global-set-key (kbd "C-c ^") 'top-level)
