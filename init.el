@@ -24,6 +24,7 @@
     markdown-mode
     ruby-end
     sass-mode scala-mode scss-mode slime slime-js
+    textile-mode
     wgrep-ack
     yaml-mode yasnippet yari)
   "A list of packages to ensure are installed at launch.")
