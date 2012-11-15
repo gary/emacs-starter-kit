@@ -3,7 +3,6 @@
 starter-kit-2.*
 *.tar
 .smex-items
-gary/custom.el
 elpa/
 eshell/
 server/
