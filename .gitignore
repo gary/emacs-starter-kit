@@ -5,7 +5,6 @@ starter-kit-2.*
 .smex-items
 elpa/
 eshell/
-server/
 snippets/
 tmp/
 url/
