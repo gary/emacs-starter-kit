@@ -93,6 +93,7 @@
 (global-set-key (kbd "C-x C-k") 'kill-region)
 (global-set-key (kbd "M-/") 'redo)
 (global-set-key (kbd "C-x \\") 'align-regexp)
+(global-set-key (kbd "C-x C-b") 'ibuffer)
 
 ;; More precise character zapping
 (global-set-key (kbd "C-M-z") 'zap-to-char)
