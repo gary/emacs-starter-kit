@@ -5,7 +5,8 @@
 
 (custom-set-variables
  '(exec-path (quote ("/Users/gary/.rbenv/shims/"
-                     "/Users/gary/.rbenv/bin" "/Users/gary/bin"
+                     "/Users/gary/.rbenv/bin"
+                     "/Users/gary/bin"
                      "/usr/local/bin"
                      "/usr/bin"
                      "/bin"
