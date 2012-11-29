@@ -23,7 +23,7 @@
     key-chord
     markdown-mode
     ruby-end
-    sass-mode scala-mode scss-mode slime slime-js
+    sass-mode scala-mode scss-mode slim-mode slime slime-js
     textile-mode
     wgrep-ack
     yaml-mode yasnippet yari)
