@@ -1,20 +1,6 @@
 ;;; girlfriend.local.el --- Platform specific tweaks for OS X
 
-(setenv "PATH" (concat (getenv "HOME") "/.rbenv/shims:"
-                       (getenv "HOME") "/.rbenv/bin:" (getenv "PATH")))
-
-(custom-set-variables
- '(exec-path (quote ("/Users/gary/.rbenv/shims/"
-                     "/Users/gary/.rbenv/bin"
-                     "/Users/gary/bin"
-                     "/usr/local/bin"
-                     "/usr/bin"
-                     "/bin"
-                     "/usr/local/sbin"
-                     "/usr/sbin"
-                     "/sbin"
-                     "/usr/X11/bin"
-                     "/usr/local/Cellar/emacs/HEAD/libexec/emacs/24.1.50/i386-apple-darwin11.4.0"))))
+(exec-path-from-shell-initialize)
 
 (when window-system
   (progn (setq ns-antialias-text t
