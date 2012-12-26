@@ -14,7 +14,7 @@
     starter-kit-eshell starter-kit-lisp starter-kit-ruby
     ack-and-a-half
     browse-kill-ring
-    coffee-mode color-theme
+    coffee-mode color-theme csv-mode
     feature-mode flymake-haml flymake-ruby flymake-sass
     gist git-commit-mode gitconfig-mode gitignore-mode
     haml-mode handlebars-mode httpcode
