@@ -4,9 +4,9 @@
 
 (when window-system
   (progn (setq ns-antialias-text t
-                   ns-input-font "Inconsolata"
-                   ns-input-fontsize 14
-                   ns-pop-up-frames nil)
+               ns-input-font "Inconsolata"
+               ns-input-fontsize 16
+               ns-pop-up-frames nil)
              (ns-respond-to-change-font)))
 
 (defun default-frame-position ()
