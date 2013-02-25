@@ -37,7 +37,7 @@
 (global-set-key (kbd "<C-tab>") 'bury-buffer)
 
 (global-set-key (kbd "C-r") 'isearch-backward-regexp)
-(global-set-key  (kbd "C-h r") 'info-emacs-manual) ; RTFEM
+(global-set-key  (kbd "C-h r") 'info-emacs-manual) ; RTFM
 
 ;; starter-kit reversions
 (global-unset-key (kbd "C-x C-h")) ; was 'view-url
