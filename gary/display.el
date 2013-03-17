@@ -24,6 +24,8 @@
         (default-frame-position))))
   (split-window-horizontally)
 
+  (set-font-for-host)
+
   (set-cursor-color "deeppink")
 
   (when window-system (opacity-modify t)))
