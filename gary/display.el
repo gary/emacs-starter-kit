@@ -32,7 +32,8 @@
 
 (if (not (eq window-system nil))
     ;; Vertical fringes of 1 pixel for each window
-    (set-fringe-mode (quote (nil . (nil . nil)))))
+    ;; minimal?
+    (set-fringe-style 1))
 
 ;; Show buffer boundaries on the left-hande side of the fringe
 (setq-default indicate-buffer-boundaries 'left)
