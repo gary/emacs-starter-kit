@@ -18,8 +18,8 @@
   (if (window-system)
       (cond
        ((= 1600 (display-pixel-height)) ; 30" display
-        (set-frame-size (selected-frame) 165 103)
-        (set-frame-position (selected-frame) 1370 0))
+        (set-frame-size (selected-frame) 163 110)
+        (set-frame-position (selected-frame) 1385 0))
        (t
         (default-frame-position))))
   (split-window-horizontally)

@@ -3,15 +3,14 @@
 (exec-path-from-shell-initialize)
 
 (defun default-frame-position ()
-  (progn
-    ;; laptop runs 1440x900
-    (set-frame-size (selected-frame) 165 65)
-    (set-frame-position (selected-frame) 400 0)))
+  ;; laptop runs 1900x1200
+  (set-frame-size (selected-frame) 165 82)
+  (set-frame-position (selected-frame) 730 0))
 
 (defun set-font-for-host ()
   (setq ns-antialias-text t
-        ns-input-font "Inconsolata"
-        ns-input-fontsize 16
+        ns-input-font "Menlo"
+        ns-input-fontsize 12
         ns-pop-up-frames nil)
   (ns-respond-to-change-font))
 
