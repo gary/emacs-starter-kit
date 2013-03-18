@@ -95,6 +95,9 @@
 (global-set-key (kbd "C-x \\") 'align-regexp)
 (global-set-key (kbd "C-x C-b") 'ibuffer)
 
+;; Emacs unbindings
+(global-unset-key (kbd "C-x C-d")) ; ido-list-directory, not helpful
+
 ;; More precise character zapping
 (global-set-key (kbd "C-M-z") 'zap-to-char)
 
