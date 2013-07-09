@@ -4,7 +4,6 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(bookmark-default-file "/Users/gary/.emacs.d/var/emacs.bmk")
- '(feature-cucumber-command "bin/rake cucumber CUCUMBER_OPTS=\"{options}\" FEATURE=\"{feature}\"")
  '(ido-save-directory-list-file "~/.emacs.d/var/ido.last")
  '(ispell-personal-dictionary "~/.emacs.d/var/ispell_english")
  '(recentf-save-file "~/.emacs.d/var/recentf")
