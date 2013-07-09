@@ -16,7 +16,7 @@
     browse-kill-ring
     coffee-mode color-theme csv-mode
     edit-server exec-path-from-shell
-    feature-mode flymake-haml flymake-ruby flymake-sass
+    feature-mode flymake-coffee flymake-haml flymake-ruby flymake-sass
     gist git-commit-mode gitconfig-mode gitignore-mode
     haml-mode handlebars-mode httpcode
     imgur inf-ruby
