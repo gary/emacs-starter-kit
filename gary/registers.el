@@ -6,8 +6,7 @@
 
 (dolist (r `((?i (file . ,(concat user-emacs-directory "init.el")))
              (?b (file . ,(concat esk-user-dir "/bindings.el")))
-             (?d (file . ,(concat "~/.homesick/repos/" user-login-name
-                                  "/dotfiles/home/.zshrc")))
+             (?d (file . ,(concat "~/src/self/dotfiles/home/.zshrc")))
              (?m (file . ,(concat esk-user-dir "/misc.el")))
              (?r (file . ,(concat esk-user-dir "/registers.el")))))
   (set-register (car r) (cadr r)))
