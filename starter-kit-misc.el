@@ -79,7 +79,7 @@
 
 ;; ido-mode is like magic pixie dust!
 (ido-mode t)
-(ido-ubiquitous t)
+(ido-ubiquitous-mode)
 (setq ido-enable-prefix nil
       ido-enable-flex-matching t
       ido-auto-merge-work-directories-length nil
@@ -110,7 +110,14 @@ comment as a filename."
 (set-default 'imenu-auto-rescan t)
 
 (add-hook 'text-mode-hook 'turn-on-auto-fill)
-(add-hook 'text-mode-hook 'turn-on-flyspell)
+;; (when (executable-find ispell-program-name)
+;;       (add-hook 'text-mode-hook 'turn-on-flyspell))
+
+(eval-after-load "ispell"
+  '(when (executable-find ispell-program-name)
+   (add-hook 'text-mode-hook 'turn-on-flyspell)))
+
+
 
 (defalias 'yes-or-no-p 'y-or-n-p)
 (defalias 'auto-tail-revert-mode 'tail-mode)
@@ -118,11 +125,13 @@ comment as a filename."
 (random t) ;; Seed the random-number generator
 
 ;; Hippie expand: at times perhaps too hip
-(dolist (f '(try-expand-line try-expand-list try-complete-file-name-partially))
-  (delete f hippie-expand-try-functions-list))
+(eval-after-load 'hippie-exp
+  '(progn
+     (dolist (f '(try-expand-line try-expand-list try-complete-file-name-partially))
+       (delete f hippie-expand-try-functions-list))
 
-;; Add this back in at the end of the list.
-(add-to-list 'hippie-expand-try-functions-list 'try-complete-file-name-partially t)
+     ;; Add this back in at the end of the list.
+     (add-to-list 'hippie-expand-try-functions-list 'try-complete-file-name-partially t)))
 
 (eval-after-load 'grep
   '(when (boundp 'grep-find-ignored-files)
