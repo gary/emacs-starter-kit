@@ -1,12 +1,7 @@
 ;;; gary/display.el --- Perfecting Emacs's veneer
 
 (if (eq emacs-major-version 24)
-    (load-theme 'tango-dark t)
-  '(progn
-     ;; FIXME:
-     ;; (load-file (concat esk-user-dir "/color-themes/subdued.el"))
-     ;; (color-theme-subdued)
-     ))
+    (load-theme 'solarized-dark t))
 
 (blink-cursor-mode 1)
 

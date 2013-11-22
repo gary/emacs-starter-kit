@@ -26,7 +26,8 @@
     markdown-mode
     ruby-end
     puppet-mode
-    sass-mode scala-mode scss-mode slim-mode slime slime-js
+    ruby-end
+    sass-mode scala-mode scss-mode slim-mode slime slime-js solarized-theme
     textile-mode
     wgrep-ack
     yaml-mode yasnippet yari)

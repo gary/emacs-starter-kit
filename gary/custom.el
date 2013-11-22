@@ -10,6 +10,8 @@
  '(save-place-file "~/.emacs.d/var/places")
  '(server-auth-dir "~/.emacs.d/var/server/")
  '(slime-repl-history-file "~/.emacs.d/var/slime-history.eld")
+ '(solarized-distinct-fringe-background t)
+ '(solarized-high-contrast-mode-line t)
  '(tramp-persistency-file-name "/Users/gary/.emacs.d/var/tramp"))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
