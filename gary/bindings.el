@@ -154,6 +154,9 @@
 (global-set-key (kbd "C-x C-m") 'smex)
 (global-set-key (kbd "C-c C-m") 'smex-major-mode-commands)
 
+;; Unconditionally lookup the definition for the word at point
+(global-set-key (kbd "C-c l") 'dictionary-lookup-definition)
+
 ;; Fetch the contents at a URL, display it raw.
 (global-set-key (kbd "C-c C-u")
                 (lambda (arg)
