@@ -27,6 +27,9 @@
 
 (add-hook 'emacs-startup-hook 'init-ui)
 
+;; Prefer vertically split window layout
+(setq split-height-threshold nil)
+
 (if (not (eq window-system nil))
     ;; Vertical fringes of 1 pixel for each window
     ;; minimal?
