@@ -2,5 +2,5 @@
 
 (add-hook 'puppet-mode-hook 'flymake-puppet-load)
 
-(provide 'gary/coffee)
+(provide 'gary/puppet)
 ;;; gary/puppet.el ends here
