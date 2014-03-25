@@ -6,7 +6,7 @@
 
 (dolist (r `((?i (file . ,(concat user-emacs-directory "init.el")))
              (?b (file . ,(concat esk-user-dir "/bindings.el")))
-             (?d (file . ,(concat "~/src/self/dotfiles/home/.zshrc")))
+             (?d (file . "~/src/self/dotfiles/home/.zshrc"))
              (?m (file . ,(concat esk-user-dir "/misc.el")))
              (?r (file . ,(concat esk-user-dir "/registers.el")))
              (?z (file . "~/src/self/oh-my-zsh-custom/common-aliases.zsh"))))
