@@ -10,6 +10,8 @@
         slime-repl-history-file      (concat var-directory "slime-history.eld")
         smex-save-file               (concat var-directory "smex-items")
         tramp-persistency-file-name  (concat var-directory "tramp")
+        xkcd-cache-dir               (concat var-directory "xkcd/")
+        xkcd-cache-latest            (concat xkcd-cache-dir "latest")
         ))
 
 (provide 'gary/files)

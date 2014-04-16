@@ -31,6 +31,7 @@
     sass-mode scala-mode scss-mode slim-mode slime slime-js solarized-theme
     textile-mode
     wgrep-ack
+    xkcd
     yaml-mode yasnippet yari)
   "A list of packages to ensure are installed at launch.")
 
