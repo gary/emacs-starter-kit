@@ -14,7 +14,7 @@
     starter-kit-eshell starter-kit-lisp starter-kit-ruby
     ack-and-a-half
     browse-kill-ring
-    coffee-mode color-theme csv-mode
+    coffee-mode csv-mode
     dictionary
     edit-server exec-path-from-shell
     feature-mode flymake-coffee flymake-haml flymake-puppet flymake-ruby
