@@ -22,6 +22,7 @@
 (setq ack-prompt-for-directory t
       auto-save-default nil
       browse-url-browser-function 'browse-url-default-macosx-browser
+      deft-use-filename-as-title t
       ffap-require-prefix t
       ido-confirm-unique-completion t
       ido-default-buffer-method 'selected-window

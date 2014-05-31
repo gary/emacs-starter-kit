@@ -15,7 +15,7 @@
     ack-and-a-half
     browse-kill-ring
     coffee-mode csv-mode
-    dictionary
+    deft dictionary
     edit-server exec-path-from-shell
     feature-mode flymake-coffee flymake-haml flymake-puppet flymake-ruby
     flymake-sass
