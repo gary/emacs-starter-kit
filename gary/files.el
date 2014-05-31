@@ -17,7 +17,6 @@
         ispell-personal-dictionary   (concat var-directory "ispell_english")
         recentf-save-file            (concat var-directory "recentf")
         save-place-file              (concat var-directory "places")
-        server-auth-dir              (concat var-directory "server/")
         slime-repl-history-file      (concat var-directory "slime-history.eld")
         smex-save-file               (concat var-directory "smex-items")
         tramp-persistency-file-name  (concat var-directory "tramp")
