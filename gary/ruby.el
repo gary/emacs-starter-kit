@@ -3,9 +3,6 @@
 (defun ri-bind-key ()
   (local-set-key [f1] 'yari-anything))
 
-(add-to-list 'auto-mode-alist '("builder$" . ruby-mode))
-(add-to-list 'auto-mode-alist '("^Guardfile$" . ruby-mode))
-
 ;;; ruby-mode 1.0 relic
 (defun ruby-insert-end ()
   (interactive)
