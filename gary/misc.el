@@ -19,17 +19,21 @@
 (put 'upcase-region 'disabled nil)      ; change case enabled
 (put 'eval-expression 'disabled nil)    ; allow eval commands
 
-(setq yank-pop-change-selection t
-      ffap-require-prefix t
-      skeleton-pair t
+(setq ack-prompt-for-directory t
       auto-save-default nil
+      browse-url-browser-function 'browse-url-default-macosx-browser
+      ffap-require-prefix t
+      ido-confirm-unique-completion t
+      ido-default-buffer-method 'selected-window
+      ido-use-filename-at-point t
       minibuffer-max-depth nil
-      uniquify-buffer-name-style 'reverse
-      uniquify-separator "|"
+      skeleton-pair t
       uniquify-after-kill-buffer-p t
-      uniquify-ignore-buffers-re "^\\*")
-
-(setq browse-url-browser-function 'browse-url-default-macosx-browser)
+      uniquify-buffer-name-style 'reverse
+      uniquify-ignore-buffers-re "^\\*"
+      uniquify-separator "|"
+      yank-pop-change-selection t
+      )
 
 ;; Replace the contents of a selection with typed text
 (delete-selection-mode t)
@@ -37,14 +41,7 @@
 ;; Incremental minibuffer completion
 (icomplete-mode 1)
 
-(when (> emacs-major-version 21)
-  (ido-everywhere t)
-  (setq ido-confirm-unique-completion t
-        ido-default-buffer-method 'selected-window
-        ido-use-filename-at-point t))
-
-;; ack
-(setq ack-prompt-for-directory t)
+(ido-everywhere t)
 
 ;; Chrome integration
 (edit-server-start)
