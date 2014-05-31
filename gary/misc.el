@@ -17,6 +17,8 @@
       ido-default-buffer-method 'selected-window
       ido-use-filename-at-point t
       minibuffer-max-depth nil
+      solarized-distinct-fringe-background t
+      solarized-high-contrast-mode-line t
       skeleton-pair t
       uniquify-after-kill-buffer-p t
       uniquify-buffer-name-style 'reverse
