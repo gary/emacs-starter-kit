@@ -1,4 +1,4 @@
-;;; gary/ruby.el --- My Ruby codes are perfect.  Kidding.
+;;; gary/ruby.el
 
 (defun ri-bind-key ()
   (local-set-key [f1] 'yari-anything))
@@ -17,4 +17,4 @@
 (add-hook 'ruby-mode-hook 'ri-bind-key)
 
 (provide 'gary/ruby)
-;; gary/ruby.el ends here
+;;; gary/ruby.el ends here
