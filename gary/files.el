@@ -2,6 +2,7 @@
 
 (let ((var-directory (concat user-emacs-directory "var/")))
   (setq bookmark-default-file        (concat var-directory "emacs.bmk")
+        custom-file                  (concat var-directory "custom.el")
         deft-directory               (expand-file-name "Dropbox/PlainText")
         emacs-download-dir           (concat var-directory "downloads/")
         ido-save-directory-list-file (concat var-directory "ido.last")
