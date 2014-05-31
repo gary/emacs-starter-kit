@@ -51,13 +51,6 @@
   (yas-global-mode 1))
 (add-to-list 'hippie-expand-try-functions-list 'yas/hippie-try-expand)
 
-;; More precise temporary file management
-(setq version-control t
-      kept-new-versions 16
-      kept-old-versions 2
-      delete-old-versions t
-      backup-by-copying-when-linked t)
-
 ;; Keep and trash selected buffers
 (midnight-delay-set 'midnight-delay 4400)
 (add-to-list 'clean-buffer-list-kill-never-buffer-names "*msg*")

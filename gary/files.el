@@ -1,7 +1,15 @@
 ;;; gary/files.el --- Central point for managing components' files/dirs
 
+;; More precise temporary file management
+(setq backup-by-copying-when-linked t
+      delete-old-versions t
+      kept-new-versions 16
+      kept-old-versions 2
+      version-control t)
+
 (let ((var-directory (concat user-emacs-directory "var/")))
-  (setq bookmark-default-file        (concat var-directory "emacs.bmk")
+  (setq backup-directory-alist     `(("." . ,(concat var-directory "backups")))
+        bookmark-default-file        (concat var-directory "emacs.bmk")
         custom-file                  (concat var-directory "custom.el")
         deft-directory               (expand-file-name "Dropbox/PlainText")
         emacs-download-dir           (concat var-directory "downloads/")
