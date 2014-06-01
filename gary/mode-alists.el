@@ -11,6 +11,8 @@
         ("\\mdwn$"         . markdown-mode)
         ("builder$"        . ruby-mode)
         ("Guardfile"       . ruby-mode)
+        ("Procfile"        . ruby-mode)
+        ("Puppetfile"      . ruby-mode)
         ("\\.zsh$"         . shell-script-mode)))
 
 (provide 'gary/mode-alists)
