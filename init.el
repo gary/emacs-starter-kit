@@ -25,7 +25,6 @@
     js2-mode
     key-chord
     markdown-mode
-    ruby-end
     puppet-mode
     ruby-end
     sass-mode scala-mode scss-mode slim-mode slime slime-js solarized-theme
