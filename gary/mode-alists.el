@@ -5,6 +5,7 @@
 
       '(("\\.applescript$" . applescript-mode)
         ("\\.scpt$"        . applescript-mode)
+        ("Brewfile"        . conf-unix-mode)
         ("\\.mdown$"       . markdown-mode)
         ("\\.mkdn$"        . markdown-mode)
         ("\\.mkd$"         . markdown-mode)
