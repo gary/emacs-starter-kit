@@ -16,6 +16,7 @@
       ido-confirm-unique-completion t
       ido-default-buffer-method 'selected-window
       ido-use-filename-at-point t
+      initial-scratch-message nil
       minibuffer-max-depth nil
       solarized-distinct-fringe-background t
       solarized-high-contrast-mode-line t
