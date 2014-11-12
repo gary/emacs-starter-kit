@@ -30,7 +30,7 @@
     textile-mode
     wgrep-ack
     xkcd
-    yaml-mode yasnippet yari)
+    yaml-mode yasnippet)
   "A list of packages to ensure are installed at launch.")
 
 (dolist (p my-packages)

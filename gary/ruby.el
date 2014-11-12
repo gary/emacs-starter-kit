@@ -1,8 +1,5 @@
 ;;; gary/ruby.el
 
-(defun ri-bind-key ()
-  (local-set-key [f1] 'yari-anything))
-
 (eval-after-load 'rbenv
   (progn
     (global-rbenv-mode)
