@@ -11,7 +11,6 @@
 ;; Add in your own as you wish:
 (defvar my-packages
   '(starter-kit
-    starter-kit-eshell starter-kit-lisp starter-kit-ruby
     ack-and-a-half
     browse-kill-ring
     coffee-mode csv-mode
