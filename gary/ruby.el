@@ -15,7 +15,6 @@
 
 (ad-activate 'rspec-compile)
 
-(add-hook 'enh-ruby-mode-hook 'ri-bind-key)
 (add-hook 'enh-ruby-mode-hook 'rbenv-use-corresponding)
 (add-hook 'enh-ruby-mode-hook 'rspec-mode)
 
