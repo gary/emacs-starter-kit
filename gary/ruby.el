@@ -10,8 +10,7 @@
   (ruby-indent-line t)
   (end-of-line))
 
-(add-hook 'ruby-mode-hook 'flymake-ruby-load)
-(add-hook 'ruby-mode-hook 'ri-bind-key)
+(add-hook 'enh-ruby-mode-hook 'ri-bind-key)
 
 (provide 'gary/ruby)
 ;;; gary/ruby.el ends here

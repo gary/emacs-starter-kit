@@ -16,9 +16,8 @@
     browse-kill-ring
     coffee-mode csv-mode
     deft dictionary
-    edit-server exec-path-from-shell
-    feature-mode flymake-coffee flymake-haml flymake-puppet flymake-ruby
-    flymake-sass
+    edit-server enh-ruby-mode exec-path-from-shell
+    feature-mode flymake-coffee flymake-haml flymake-puppet flymake-sass
     gist git-commit-mode gitconfig-mode gitignore-mode
     haml-mode handlebars-mode httpcode
     imgur inf-ruby
