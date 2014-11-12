@@ -25,7 +25,7 @@
     key-chord
     markdown-mode
     puppet-mode
-    rhtml-mode ruby-end
+    rbenv rhtml-mode ruby-end
     sass-mode scala-mode scss-mode slim-mode slime slime-js solarized-theme
     textile-mode
     wgrep-ack
