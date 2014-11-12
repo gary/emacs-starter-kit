@@ -22,7 +22,7 @@
     imgur inf-ruby
     js2-mode
     key-chord
-    markdown-mode
+    markdown-mode multi-term
     puppet-mode
     rbenv rhtml-mode rspec-mode ruby-end
     sass-mode scala-mode scss-mode slim-mode slime slime-js solarized-theme
