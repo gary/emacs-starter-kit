@@ -1,7 +1,5 @@
 ;;; girlfriend.local.el --- Platform specific tweaks for OS X
 
-(exec-path-from-shell-initialize)
-
 (defun default-frame-position ()
   ;; laptop runs 1900x1200
   (set-frame-size (selected-frame) 163 76)
