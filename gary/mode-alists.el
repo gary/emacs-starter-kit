@@ -15,6 +15,7 @@
         ("\\.rake$"        . enh-ruby-mode)
         ("\\.thor$"        . enh-ruby-mode)
         ("Capfile"         . enh-ruby-mode)
+        ("Gemfile\\'"      . enh-ruby-mode)
         ("Thorfile$"       . enh-ruby-mode)
         ("Guardfile$"      . enh-ruby-mode)
         ("Procfile$"       . enh-ruby-mode)
