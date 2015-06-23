@@ -17,6 +17,7 @@
 
 (add-hook 'enh-ruby-mode-hook 'rbenv-use-corresponding)
 (add-hook 'enh-ruby-mode-hook 'rspec-mode)
+(add-hook 'enh-ruby-mode-hook 'rubocop-mode)
 
 (customize-set-variable 'rspec-use-rbenv t)
 
