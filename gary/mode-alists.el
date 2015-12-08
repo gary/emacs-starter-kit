@@ -18,6 +18,7 @@
         ("\\.thor$"        . enh-ruby-mode)
         ("Capfile"         . enh-ruby-mode)
         ("Gemfile\\'"      . enh-ruby-mode)
+        ("Rakefile$"       . enh-ruby-mode)
         ("Thorfile$"       . enh-ruby-mode)
         ("Guardfile$"      . enh-ruby-mode)
         ("Procfile$"       . enh-ruby-mode)
